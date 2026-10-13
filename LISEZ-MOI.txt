@@ -1,0 +1,75 @@
+========================================================
+   SBA3IYA MAGIC SALON - Guide d'utilisation
+========================================================
+
+Bienvenue ! Cette application vous permet de gerer
+votre salon de coiffure et d'esthetique.
+
+--------------------------------------------------------
+ 1. INSTALLATION (a faire UNE SEULE FOIS)
+--------------------------------------------------------
+
+  a) Installer Python :
+     - Allez sur : https://www.python.org/downloads/
+     - Telechargez la derniere version
+     - Pendant l'installation, COCHEZ la case
+       "Add Python to PATH" (tres important !)
+
+  b) Double-cliquez sur "Installer.bat"
+     - Attendez la fin (2-3 minutes)
+     - C'est pret !
+
+--------------------------------------------------------
+ 2. LANCEMENT DE L'APPLICATION
+--------------------------------------------------------
+
+  Double-cliquez sur "Lancer.bat"
+  La fenetre s'ouvre.
+
+  ASTUCE : Faites un clic droit sur "Lancer.bat" →
+  "Envoyer vers" → "Bureau (creer un raccourci)"
+
+--------------------------------------------------------
+ 3. PREMIERE UTILISATION
+--------------------------------------------------------
+
+  1. Cliquez sur "Admin" (en bas a gauche)
+     Mot de passe : admin123
+
+  2. Allez dans "Parametres" et :
+     - Changez le mot de passe admin
+     - Verifiez le nom du salon
+
+  3. Allez dans "Services" et definissez
+     les PRIX de chaque service
+
+  4. Allez dans "Serveuses" et ajoutez
+     vos employees
+
+  5. C'est pret ! Utilisez "Caisse",
+     "Clients" et "Rendez-vous"
+
+--------------------------------------------------------
+ 4. SAUVEGARDE AUTOMATIQUE
+--------------------------------------------------------
+
+  A chaque demarrage, une sauvegarde est faite
+  dans le dossier "backups/".
+
+  Les sauvegardes de + de 30 jours sont supprimees.
+
+  Pour restaurer : copiez un fichier de "backups/",
+  renommez-le en "sba3iya.db" et remplacez l'ancien.
+
+--------------------------------------------------------
+ 5. ASSISTANCE
+--------------------------------------------------------
+
+  En cas de probleme, verifiez que :
+  - Python est bien installe
+  - Vous avez lance "Installer.bat" au moins une fois
+  - Le fichier "sba3iya.db" est present
+
+========================================================
+   Bonne gestion avec Sba3iya Magic Salon ! 🐯
+========================================================

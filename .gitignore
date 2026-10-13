@@ -1,0 +1,42 @@
+# ============================================
+#   Fichiers à NE PAS envoyer sur GitHub
+# ============================================
+
+# Base de données (données du salon !)
+*.db
+*.sqlite
+*.sqlite3
+
+# Sauvegardes
+backups/
+*.csv
+
+# .exe (à distribuer via Releases, pas dans le repo)
+dist/
+build/
+*.exe
+*.spec
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / Éditeur
+.vscode/
+.idea/
+*.swp
+.qodo/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rapports exportés
+rapport_*.csv
